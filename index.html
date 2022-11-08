@@ -22,7 +22,7 @@
 
     <title>Intro to JavaScript</title>
   </head>
-  <body onload="PR.prettyPrint()">
+  <body>
     <nav class="navbar bg-light">
       <div class="container-fluid navbar-text">
         <a class="navbar-brand" href="#">
@@ -95,8 +95,8 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">JavaScript Example</h5>
-          
-		      <pre class="card-text prettyprint linenums">
+          <p class="card-text"> 
+		      <pre class="prettyprint">
               document.body.addEventListener('click', function () {
                 var myParent = document.getElementsByTagName("h1")[0]; 
                 var myImage = document.createElement("img");
@@ -105,7 +105,7 @@
                 myImage.style.marginLeft = "160px";
               });
             </pre>
-          
+          </p>
         </div>
       </div>  
 
